@@ -1,0 +1,6 @@
+Rahul Kapur rk2749
+
+Create a huffmannode class to replace the comparable used in weiss’ code. The Huffman Node should have constructor that has the character and its frequency. Loop through the text file and store each letters frequency and value in a hasmap. Then add each element in the hashmap to a Huffmannode and add each node to the heap. To create the tree perform two deletemins from the heap make these the left and right node of another node. This node’s frequency should be the combined frequency of the two deleted nodes. Then add this node back to the heap. Do this until only the root node is left in the heap. Recurse through the tree adding 0’s for left elements and 1’s for right elements to the Huffman code then print each element and its respective code in this buildTable method. Then store the Huffman code and character in two hashmaps which are used to decode and encode user input. NOTE: My Huffman code logic is sound as I checked with a TA but the reason my Huffman code may differ is because I accounted for the newline and space differently than the other code in the sample that was sent to us. Also I wrote a printtree method that somewhat works. I put it in mainly for partial credit.
+
+
+
